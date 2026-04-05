@@ -7,6 +7,8 @@ import torch
 from compressed_tensors.entrypoints.convert import (
     Converter,
     exec_jobs,
+)
+from compressed_tensors.utils.safetensors_load import (
     get_checkpoint_files,
     is_weights_file,
     update_safetensors_index,
